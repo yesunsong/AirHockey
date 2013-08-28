@@ -27,9 +27,23 @@ AppDelegate::~AppDelegate()
 bool AppDelegate::applicationDidFinishLaunching()
 {
     // initialize director
+    
+    CCEGLView* pEGLView=CCEGLView::sharedOpenGLView();    
     CCDirector *pDirector = CCDirector::sharedDirector();
-    pDirector->setOpenGLView(CCEGLView::sharedOpenGLView());
+    pDirector->setOpenGLView(pEGLView);
 
+    //自适应
+    CCSize screenSize=pEGLView->getFrameSize();
+    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(768, 1024, kResolutionExactFit);
+    if (screenSize.width>768) {
+//        CCFileUtils::sharedFileUtils()->setSearchPaths(<#const std::vector<std::string> &searchPaths#>);
+        pDirector->setContentScaleFactor(2);
+    }else{
+//        ccfileutils::sharedFileUtils->setSearchPaths();
+        pDirector->setContentScaleFactor(1);
+    }
+    
+    
     // turn on display FPS
     pDirector->setDisplayStats(true);
 

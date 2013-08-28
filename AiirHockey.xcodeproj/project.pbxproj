@@ -280,6 +280,10 @@
 		1276DA1417CD814A004EE06B /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1276DA1317CD814A004EE06B /* libwebsockets.a */; };
 		1276DA1A17CD814A004EE06B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1276DA1917CD814A004EE06B /* AppDelegate.cpp */; };
 		1276DA1D17CD814A004EE06B /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1276DA1C17CD814A004EE06B /* HelloWorldScene.cpp */; };
+		1276DA2717CD87F7004EE06B /* hd in Resources */ = {isa = PBXBuildFile; fileRef = 1276DA2317CD87F7004EE06B /* hd */; };
+		1276DA2817CD87F7004EE06B /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1276DA2417CD87F7004EE06B /* hit.wav */; };
+		1276DA2917CD87F7004EE06B /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1276DA2517CD87F7004EE06B /* score.wav */; };
+		1276DA2A17CD87F7004EE06B /* sd in Resources */ = {isa = PBXBuildFile; fileRef = 1276DA2617CD87F7004EE06B /* sd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -873,6 +877,10 @@
 		1276DA1917CD814A004EE06B /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		1276DA1B17CD814A004EE06B /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		1276DA1C17CD814A004EE06B /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		1276DA2317CD87F7004EE06B /* hd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = hd; path = Resources/hd; sourceTree = "<group>"; };
+		1276DA2417CD87F7004EE06B /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = Resources/hit.wav; sourceTree = "<group>"; };
+		1276DA2517CD87F7004EE06B /* score.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = score.wav; path = Resources/score.wav; sourceTree = "<group>"; };
+		1276DA2617CD87F7004EE06B /* sd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sd; path = Resources/sd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +952,10 @@
 		1276D68717CD8143004EE06B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1276DA2317CD87F7004EE06B /* hd */,
+				1276DA2417CD87F7004EE06B /* hit.wav */,
+				1276DA2517CD87F7004EE06B /* score.wav */,
+				1276DA2617CD87F7004EE06B /* sd */,
 				1276D68817CD8143004EE06B /* CloseNormal.png */,
 				1276D68A17CD8143004EE06B /* CloseSelected.png */,
 				1276D68C17CD8143004EE06B /* Default.png */,
@@ -2164,6 +2176,10 @@
 				1276D69D17CD8144004EE06B /* iTunesArtwork in Resources */,
 				1276D73C17CD8145004EE06B /* ChangeLog in Resources */,
 				1276D8B017CD8148004EE06B /* project.pbxproj in Resources */,
+				1276DA2717CD87F7004EE06B /* hd in Resources */,
+				1276DA2817CD87F7004EE06B /* hit.wav in Resources */,
+				1276DA2917CD87F7004EE06B /* score.wav in Resources */,
+				1276DA2A17CD87F7004EE06B /* sd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

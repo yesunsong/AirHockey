@@ -37,7 +37,9 @@ static AppDelegate s_sharedApplication;
                                       sharegroup: nil
                                    multiSampling: NO
                                  numberOfSamples:0 ];
-
+    
+    [__glView setMultipleTouchEnabled:YES];//开启多点触摸
+    
     // Use RootViewController manage EAGLView
     viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
     viewController.wantsFullScreenLayout = YES;
