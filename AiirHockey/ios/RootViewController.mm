@@ -45,7 +45,7 @@
 - (NSUInteger) supportedInterfaceOrientations{
 #ifdef __IPHONE_6_0
 //    return UIInterfaceOrientationMaskLandscape;
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskPortrait;//支持竖版
 #endif
 }
 
